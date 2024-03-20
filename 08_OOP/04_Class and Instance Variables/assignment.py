@@ -1,4 +1,8 @@
 class Rectangle:
+    __counter=0
+    
+    def get_count():
+        return Rectangle.__counter
     
     
     
@@ -12,16 +16,19 @@ class Rectangle:
             self.__height = 0
         else:
             self.__height = height
+        __counter += 1
         
     def get_height(self) -> float:
         return self.__height
     
-    #YOUDO the get_base method
+    def get_base(self) -> float:
+        return self.base
     
     def get_perimeter(self) -> float:
         return 2 * self.__base + 2 * self.__height
     
-    #Youdo get_area method
+    def get_area(self) -> float:
+        return self.__base * self.__height
  
  
  

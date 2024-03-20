@@ -35,5 +35,4 @@ print(" The height of rectangle2 is", rectangle2.get_height())
 print(" The pereimeter of rectangle2 is", rectangle2.get_perimeter())
 print(" The area of rectangle2 is", rectangle2.get_area())
 
-#YOUDO>  create two rectangles.  print their base, height, perimeter, and area
-#using only the methods not the fields/property/attributes
+

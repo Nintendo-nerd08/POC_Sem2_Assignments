@@ -14,12 +14,14 @@ class Rectangle:
     def get_height(self) -> float:
         return self.__height
 
-    # YOUDO the get_base method
+    def get_base(self) -> float:
+        return self.__base
 
     def get_perimeter(self) -> float:
         return 2 * self.__base + 2 * self.__height
 
-    # Youdo get_area method
+    def get_area(self) -> float:
+        return self.__base * self.__height 
     
     def __str__(self) -> str:
         #Rectangle with base:3, height:4
