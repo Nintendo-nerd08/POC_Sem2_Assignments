@@ -1,5 +1,4 @@
-text = "" #use input to actually store into text.  remove the ""
-
+text = input("text")  
 result = text.find("the")
 
 if result == -1:
@@ -7,4 +6,4 @@ if result == -1:
 else:
     print("The word the is in the string")
     print("It is located at", )
-    #YOUDO.  print out where the word 'the' appears in the string.  
+    print("where the word 'the' appears in the string.")
