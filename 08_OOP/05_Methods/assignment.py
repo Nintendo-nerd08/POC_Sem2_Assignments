@@ -24,10 +24,18 @@ class Rectangle:
         return self.__base * self.__height 
     
     def __str__(self) -> str:
-        #Rectangle with base:3, height:4
         return "Rectangle with base:" + str(self.__base) + ", height:" + str(self.__height)
     
 
-
-# YOUDO>  create two rectangles.  print their base, height, perimeter, and area
-# using only the methods not the fields/property/attributes
+rectangle1 = Rectangle(3, 4)
+print(rectangle1)
+print("The side  of square1 is", rectangle1.get_side())
+print(" The perimeter of square1 is", rectangle1.get_perimeter())
+print(" The area of square1 is", rectangle1.get_area())
+print()
+rectangle2 = Rectangle(4, 5)
+print(rectangle2)
+print(" The base of rectangle1 is", rectangle2.get_base())
+print(" The height of rectangle1 is", rectangle2.get_height())
+print(" The perimeter of rectangle1 is", rectangle2.get_perimeter())
+print(" The area of rectangle1 is", rectangle2.get_area())
